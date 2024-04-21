@@ -11,19 +11,12 @@ The success of the model will be evaluated based on metrics such as Mean Squared
 
 4. Requirements & Constraints
 4.1. Functional Requirements
-Access to labeled student performance dataset. Machine Learning libraries (e.g., scikit-learn, TensorFlow). Deployment platform (e.g., Docker, cloud services).
+Access to labeled student performance dataset. Machine Learning libraries (e.g., scikit-learn, TensorFlow)
 
-4.2. Non-Functional Requirements
-Scalability: The model should be able to handle a growing number of students and features.
-
-Latency: Real-time predictions for timely interventions.
-
-Security: Protecting student data and ensuring compliance with data privacy regulations.
-
-4.3. Constraints
+4.2. Constraints
 Availability and quality of input data may impact the model’s accuracy. Resource constraints might affect the choice of algorithms and deployment options.
 
-4.4. Out-of-Scope
+4.3. Out-of-Scope
 Individual student-level interventions are out of scope; the model provides predictions but not recommendations for action.
 
 5. Methodology
@@ -40,7 +33,6 @@ Feature selection: Identify the most relevant features for prediction.
 
 Model selection: Choose regression algorithms (e.g., Linear Regression, Random Forest) and perform hyperparameter tuning.
 
-MLOps integration: Implement CI/CD, model monitoring, and automated retraining for continuous improvement.
 
 6. Architecture
 The architecture consists of the following components:
@@ -50,14 +42,12 @@ Data preprocessing: Implement the data preprocessing technique.
 Model Training: Build and train the regression model.
 Model Evaluation: Assess model performance using test data.
 Model Deployment: Deploy the model using a suitable platform.
-MLOps Pipeline: Automate data updates, model retraining, and deployment.
+
 7. Pipeline
 Data Collection & Preprocessing
 Feature Engineering & Selection
 Model Building & Training
 Model Evaluation & Metrics Calculation
-Model Deployment & Monitoring
-Continuous Integration & Continuous Deployment (CI/CD)
-Model Retraining based on Data Drift
-8. Conclusion
-In this project, we have showcased a comprehensive approach to predict student performance using a regression model and MLOps practices. By accurately predicting student grades, educational institutions can take proactive measures to support struggling students and enhance overall academic success.
+
+9. Conclusion
+In this project, we have showcased a comprehensive approach to predicting student performance using a regression model. By accurately predicting student grades, educational institutions can take proactive measures to support struggling students and enhance overall academic success.
