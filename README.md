@@ -34,20 +34,5 @@ Feature selection: Identify the most relevant features for prediction.
 Model selection: Choose regression algorithms (e.g., Linear Regression, Random Forest) and perform hyperparameter tuning.
 
 
-6. Architecture
-The architecture consists of the following components:
-
-Data Ingestion: Fetch and preprocess data.
-Data preprocessing: Implement the data preprocessing technique.
-Model Training: Build and train the regression model.
-Model Evaluation: Assess model performance using test data.
-Model Deployment: Deploy the model using a suitable platform.
-
-7. Pipeline
-Data Collection & Preprocessing
-Feature Engineering & Selection
-Model Building & Training
-Model Evaluation & Metrics Calculation
-
-9. Conclusion
+6. Conclusion
 In this project, we have showcased a comprehensive approach to predicting student performance using a regression model. By accurately predicting student grades, educational institutions can take proactive measures to support struggling students and enhance overall academic success.
